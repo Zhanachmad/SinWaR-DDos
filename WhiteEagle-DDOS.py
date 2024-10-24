@@ -60,7 +60,7 @@ def buildblock(size):
 		out_str += chr(a)
 	return(out_str)
 
-def usage():
+def usage(...):
 	print '.=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-.'
 	print '|                     ______                     |'
 	print '|                  .-"      "-.                  |'
@@ -79,7 +79,7 @@ def usage():
 	print '|           https://discord.gg/hn7epsef4Z        |'
 	print '|               https://d1modshop.ml             |'
 	print  '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='
-
+               
 #http request
 def httpcall(url):
 	useragent_list()
