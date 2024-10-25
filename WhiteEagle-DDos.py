@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-           
 import socket
 import os
@@ -12,6 +13,7 @@ white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(3500)
 
 os.system("clear")
+print("""\033[32m \033[0m
 print(" ")
 print("  ___      ___   ___    ___   ___   ____________   _________   ")                                                
 print(" | ::     | ::  | ::   | ::  | ::  | :::::::::::  | ::::::::   ")
@@ -27,6 +29,7 @@ print(" | ::::::     / :: \ ::   | ::::::::: | ::        | :::::::  ")
 print(" | ::——/     / :::::::::  | ::———| :: | ::        | ::———/   ")
 print(" | :::::::: / ::—————\ :: | ::::::::: | ::::::::: | :::::::  ")
 print("  \_________\___      \___ \________   \_________  \________ ")
+       """)
 print()
 print("[" + B + "" + R + "#" + N + "] " + B + "" + R + "" + N + "" + B + "" + R + "" + N)
 print()
