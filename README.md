@@ -6,4 +6,4 @@
  - git clone https://github.com/Zhanachmad/SinWaR-DDos.git
  - cd SinWaR-DDos
  - python setup.py
- - python2 SinWaR-DDos.py
+ - python3 SinWaR-DDos.py
